@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+        .section {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5dc;
+            box-sizing: border-box;
+        }
+        .section3 {
+            height: 50vh;
+            background-color: black;
+            color: white;
+        }
+        .content {
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#section1">Sección 1</a>
+        <a href="#section2">Sección 2</a>
+        <a href="#section3">Sección 3</a>
+    </div>
+    <div id="section1" class="section">
+        <div class="content">Sección 1</div>
+    </div>
+    <div id="section2" class="section">
+        <div class="content">Sección 2</div>
+    </div>
+    <div id="section3" class="section section3">
+        <div class="content">Sección 3</div>
+    </div>
+</body>
+</html>

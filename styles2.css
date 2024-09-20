@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 8px 4px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif; /* Cambio de fuente a Arial */
+    color: blue; /* Cambio de color de texto a azul */
+}
+
+th {
+    background-color: #f2f2f2;
+    width: 170px;
+}
+
+tfoot td {
+    text-align: center;
+    font-size: 12px;
+}
+
+.destacar {
+    background-color: red;
+    color: white;
+}
